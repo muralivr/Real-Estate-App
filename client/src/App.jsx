@@ -17,7 +17,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/list/:id" element={<List />} />
         <Route path="/search" element={<Search />} />
         <Route element={<PrivateRoute />}>

@@ -48,7 +48,7 @@ function Header() {
           </button>
         </form>
         <ul className="flex gap-4">
-          <Link to="/">
+          {/* <Link to="/">
             <li className="hidden sm:inline text-slate-700 hover:underline">
               Home
             </li>
@@ -57,7 +57,7 @@ function Header() {
             <li className="hidden sm:inline text-slate-700 hover:underline">
               About
             </li>
-          </Link>
+          </Link> */}
           <Link to="/profile">
             {currentUser ? (
               <img
